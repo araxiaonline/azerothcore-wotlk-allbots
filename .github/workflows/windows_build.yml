@@ -2,7 +2,8 @@ name: windows-build
 on:
   push:
     branches:
-      - 'master'
+      - 'npcbots_3.3.5'
+      - 'CI'
   pull_request:
     types: ['labeled', 'opened', 'synchronize', 'reopened']
 
